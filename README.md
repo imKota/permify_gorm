@@ -18,7 +18,7 @@ This package allows you to manage user permissions and roles in your database.
 Install
 
 ```shell
-go get github.com/Permify/go-role
+go get github.com/ai-psyche/permify_gorm
 ```
 
 Run All Tests
