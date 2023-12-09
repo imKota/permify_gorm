@@ -1,7 +1,7 @@
 package collections
 
 import (
-	"github.com/Permify/go-role/models"
+	"github.com/ai-psyche/permify_gorm/models"
 )
 
 // Permission provides methods for you to manage array data more easily.

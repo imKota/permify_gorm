@@ -1,7 +1,7 @@
 package options
 
 import (
-	"github.com/Permify/go-role/utils"
+	"github.com/ai-psyche/permify_gorm/utils"
 )
 
 // RoleOption represents options when fetching roles.

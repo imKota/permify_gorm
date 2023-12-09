@@ -3,10 +3,10 @@ package repositories
 import (
 	"gorm.io/gorm"
 
-	"github.com/Permify/go-role/collections"
-	"github.com/Permify/go-role/models"
-	"github.com/Permify/go-role/models/pivot"
-	"github.com/Permify/go-role/repositories/scopes"
+	"github.com/ai-psyche/permify_gorm/collections"
+	"github.com/ai-psyche/permify_gorm/models"
+	"github.com/ai-psyche/permify_gorm/models/pivot"
+	"github.com/ai-psyche/permify_gorm/repositories/scopes"
 )
 
 // IRoleRepository its data access layer abstraction of role.

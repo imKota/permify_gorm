@@ -4,9 +4,9 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 
-	"github.com/Permify/go-role/collections"
-	"github.com/Permify/go-role/models"
-	"github.com/Permify/go-role/models/pivot"
+	"github.com/ai-psyche/permify_gorm/collections"
+	"github.com/ai-psyche/permify_gorm/models"
+	"github.com/ai-psyche/permify_gorm/models/pivot"
 )
 
 // IUserRepository its data access layer abstraction of user.

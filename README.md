@@ -3,8 +3,8 @@
     <img src="https://raw.githubusercontent.com/Permify/permify/master/assets/permify-logo.svg" alt="Permify logo" width="336px" /><br />
 </h1>
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/Permify/go-role.svg)](https://pkg.go.dev/github.com/Permify/go-role)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Permify/go-role)](https://goreportcard.com/report/github.com/Permify/go-role)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ai-psyche/permify_gorm.svg)](https://pkg.go.dev/github.com/ai-psyche/permify_gorm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ai-psyche/permify_gorm)](https://goreportcard.com/report/github.com/ai-psyche/permify_gorm)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Permify/go-role)
 ![GitHub](https://img.shields.io/github/license/Permify/go-role)
 [![Twitter Follow](https://img.shields.io/twitter/follow/GetPermify?style=social)](https://twitter.com/GetPermify)
@@ -45,7 +45,7 @@ go get gorm.io/driver/clickhouse
 Import permify.
 
 ```go
-import permify `github.com/Permify/go-role`
+import permify `github.com/ai-psyche/permify_gorm`
 ```
 
 Initialize the new Permify.
@@ -386,7 +386,7 @@ You can create the relationships between the user and the role and permissions i
 ```go
 import (
     "gorm.io/gorm"
-    models `github.com/Permify/go-role/models`
+    models `github.com/ai-psyche/permify_gorm/models`
 )
 
 type User struct {
@@ -421,7 +421,7 @@ if errors.Is(err, gorm.ErrRecordNotFound) {
 Stargazers
 -----------
 
-[![Stargazers repo roster for @Permify/go-role](https://reporoster.com/stars/Permify/go-role)](https://github.com/Permify/go-role/stargazers)
+[![Stargazers repo roster for @Permify/go-role](https://reporoster.com/stars/Permify/go-role)](https://github.com/ai-psyche/permify_gorm/stargazers)
 
 
 ## Community & Support
