@@ -5,7 +5,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/ai-psyche/permify_gorm.svg)](https://pkg.go.dev/github.com/ai-psyche/permify_gorm)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ai-psyche/permify_gorm)](https://goreportcard.com/report/github.com/ai-psyche/permify_gorm)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Permify/go-role)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/ai-psyche/permify_gorm)
 ![GitHub](https://img.shields.io/github/license/Permify/go-role)
 [![Twitter Follow](https://img.shields.io/twitter/follow/GetPermify?style=social)](https://twitter.com/GetPermify)
 
