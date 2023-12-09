@@ -1,4 +1,4 @@
-module github.com/Permify/go-role
+module github.com/ai-psyche/permify_gorm
 
 go 1.17
 
