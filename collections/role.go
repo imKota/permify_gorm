@@ -1,8 +1,8 @@
 package collections
 
 import (
-	"github.com/ai-psyche/permify_gorm/helpers"
-	"github.com/ai-psyche/permify_gorm/models"
+	"github.com/imKota/permify_gorm/helpers"
+	"github.com/imKota/permify_gorm/models"
 )
 
 // Role provides methods for you to manage array data more easily.

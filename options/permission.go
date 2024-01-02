@@ -1,7 +1,7 @@
 package options
 
 import (
-	"github.com/ai-psyche/permify_gorm/utils"
+	"github.com/imKota/permify_gorm/utils"
 )
 
 // PermissionOption represents options when fetching permissions.

@@ -1,4 +1,4 @@
-module github.com/ai-psyche/permify_gorm
+module github.com/imKota/permify_gorm
 
 go 1.20
 

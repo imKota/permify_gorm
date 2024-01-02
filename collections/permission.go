@@ -1,7 +1,7 @@
 package collections
 
 import (
-	"github.com/ai-psyche/permify_gorm/models"
+	"github.com/imKota/permify_gorm/models"
 )
 
 // Permission provides methods for you to manage array data more easily.

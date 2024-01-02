@@ -10,8 +10,8 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
-	"github.com/ai-psyche/permify_gorm/collections"
-	"github.com/ai-psyche/permify_gorm/models"
+	"github.com/imKota/permify_gorm/collections"
+	"github.com/imKota/permify_gorm/models"
 )
 
 var _ = Describe("Role Repository", func() {

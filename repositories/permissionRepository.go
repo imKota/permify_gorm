@@ -3,10 +3,10 @@ package repositories
 import (
 	"gorm.io/gorm"
 
-	"github.com/ai-psyche/permify_gorm/collections"
-	"github.com/ai-psyche/permify_gorm/models"
-	"github.com/ai-psyche/permify_gorm/models/pivot"
-	"github.com/ai-psyche/permify_gorm/repositories/scopes"
+	"github.com/imKota/permify_gorm/collections"
+	"github.com/imKota/permify_gorm/models"
+	"github.com/imKota/permify_gorm/models/pivot"
+	"github.com/imKota/permify_gorm/repositories/scopes"
 )
 
 // IPermissionRepository its data access layer abstraction of permission.

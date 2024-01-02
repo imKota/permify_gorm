@@ -3,9 +3,9 @@
     <img src="https://raw.githubusercontent.com/Permify/permify/master/assets/permify-logo.svg" alt="Permify logo" width="336px" /><br />
 </h1>
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/ai-psyche/permify_gorm.svg)](https://pkg.go.dev/github.com/ai-psyche/permify_gorm)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ai-psyche/permify_gorm)](https://goreportcard.com/report/github.com/ai-psyche/permify_gorm)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/ai-psyche/permify_gorm)
+[![Go Reference](https://pkg.go.dev/badge/github.com/imKota/permify_gorm.svg)](https://pkg.go.dev/github.com/imKota/permify_gorm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/imKota/permify_gorm)](https://goreportcard.com/report/github.com/imKota/permify_gorm)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/imKota/permify_gorm)
 ![GitHub](https://img.shields.io/github/license/Permify/go-role)
 [![Twitter Follow](https://img.shields.io/twitter/follow/GetPermify?style=social)](https://twitter.com/GetPermify)
 
@@ -18,7 +18,7 @@ This package allows you to manage user permissions and roles in your database.
 Install
 
 ```shell
-go get github.com/ai-psyche/permify_gorm
+go get github.com/imKota/permify_gorm
 ```
 
 Run All Tests
@@ -45,7 +45,7 @@ go get gorm.io/driver/clickhouse
 Import permify.
 
 ```go
-import permify `github.com/ai-psyche/permify_gorm`
+import permify `github.com/imKota/permify_gorm`
 ```
 
 Initialize the new Permify.
@@ -386,7 +386,7 @@ You can create the relationships between the user and the role and permissions i
 ```go
 import (
     "gorm.io/gorm"
-    models `github.com/ai-psyche/permify_gorm/models`
+    models `github.com/imKota/permify_gorm/models`
 )
 
 type User struct {
@@ -421,7 +421,7 @@ if errors.Is(err, gorm.ErrRecordNotFound) {
 Stargazers
 -----------
 
-[![Stargazers repo roster for @Permify/go-role](https://reporoster.com/stars/Permify/go-role)](https://github.com/ai-psyche/permify_gorm/stargazers)
+[![Stargazers repo roster for @Permify/go-role](https://reporoster.com/stars/Permify/go-role)](https://github.com/imKota/permify_gorm/stargazers)
 
 
 ## Community & Support
