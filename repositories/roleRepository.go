@@ -108,7 +108,7 @@ func (repository *RoleRepository) GetRoleByGuardNameWithPermissions(guardName st
 // @param []uint
 // @return collections.Role, error
 func (repository *RoleRepository) GetRoles(IDs []uint) (roles collections.Role, err error) {
-	err = repository.Database.Where("roles.id IN (?)", IDs).Find(&roles).Error
+	err = repository.Database.Order("id asc").Where("roles.id IN (?)", IDs).Find(&roles).Error
 	return
 }
 
@@ -116,7 +116,7 @@ func (repository *RoleRepository) GetRoles(IDs []uint) (roles collections.Role, 
 // @param []uint
 // @return collections.Role, error
 func (repository *RoleRepository) GetRolesWithPermissions(IDs []uint) (roles collections.Role, err error) {
-	err = repository.Database.Preload("Permissions").Where("roles.id IN (?)", IDs).Find(&roles).Error
+	err = repository.Database.Order("id asc").Preload("Permissions").Where("roles.id IN (?)", IDs).Find(&roles).Error
 	return
 }
 
@@ -124,7 +124,7 @@ func (repository *RoleRepository) GetRolesWithPermissions(IDs []uint) (roles col
 // @param []string
 // @return collections.Role, error
 func (repository *RoleRepository) GetRolesByGuardNames(guardNames []string) (roles collections.Role, err error) {
-	err = repository.Database.Where("roles.guard_name IN (?)", guardNames).Find(&roles).Error
+	err = repository.Database.Order("id asc").Where("roles.guard_name IN (?)", guardNames).Find(&roles).Error
 	return
 }
 
@@ -132,7 +132,7 @@ func (repository *RoleRepository) GetRolesByGuardNames(guardNames []string) (rol
 // @param []string
 // @return collections.Role, error
 func (repository *RoleRepository) GetRolesByGuardNamesWithPermissions(guardNames []string) (roles collections.Role, err error) {
-	err = repository.Database.Preload("Permissions").Where("roles.guard_name IN (?)", guardNames).Find(&roles).Error
+	err = repository.Database.Order("id asc").Preload("Permissions").Where("roles.guard_name IN (?)", guardNames).Find(&roles).Error
 	return
 }
 

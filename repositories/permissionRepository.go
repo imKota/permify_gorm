@@ -71,7 +71,7 @@ func (repository *PermissionRepository) GetPermissionByGuardName(guardName strin
 // @param []uint
 // @return collections.Role, error
 func (repository *PermissionRepository) GetPermissions(IDs []uint) (permissions collections.Permission, err error) {
-	err = repository.Database.Where("permissions.id IN (?)", IDs).Find(&permissions).Error
+	err = repository.Database.Order("id asc").Where("permissions.id IN (?)", IDs).Find(&permissions).Error
 	return
 }
 
@@ -79,7 +79,7 @@ func (repository *PermissionRepository) GetPermissions(IDs []uint) (permissions 
 // @param []string
 // @return collections.Permission, error
 func (repository *PermissionRepository) GetPermissionsByGuardNames(guardNames []string) (permissions collections.Permission, err error) {
-	err = repository.Database.Where("permissions.guard_name IN (?)", guardNames).Find(&permissions).Error
+	err = repository.Database.Order("id asc").Where("permissions.guard_name IN (?)", guardNames).Find(&permissions).Error
 	return
 }
 
