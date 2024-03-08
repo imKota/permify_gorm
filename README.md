@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/Permify/permify/master/assets/permify-logo.svg" alt="Permify logo" width="336px" /><br />
+    <img src="docs/assets/permify-logo.svg" alt="Permify logo" width="336px" /><br />
 </h1>
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/imKota/permify_gorm.svg)](https://pkg.go.dev/github.com/imKota/permify_gorm)
